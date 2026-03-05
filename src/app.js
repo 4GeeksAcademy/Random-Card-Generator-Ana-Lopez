@@ -18,7 +18,11 @@ let azar2 = Math.floor(Math.random() * numeros.length)
   palosRenderizados[1].innerHTML = (palos[azar]);
   document.querySelector(".numero").innerHTML = (numeros[azar2]);
 
-    
+  palosRenderizados[1].style.transform = "rotate(180deg)";
 
+  if (palos[azar] === "♥"){
+    palosRenderizados[0].style.color= "red"
+  palosRenderizados[1].style.color="red"
+  }
   
 };
