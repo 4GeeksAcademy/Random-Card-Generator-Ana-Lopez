@@ -2,8 +2,9 @@
 
 body {
     background: #0F7E13;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    justify-content:flex-start;
+    padding-left: 200px;
     
 }
 
