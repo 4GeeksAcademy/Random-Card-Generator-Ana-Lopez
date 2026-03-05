@@ -32,12 +32,9 @@ window.onload = function () {
 
   boton.addEventListener("click", function () {
 
-    // let palos = ["♦", "♥", "♠", "♣"]
-    // let numeros = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "K", "Q", "J", "A"];
     let azar = Math.floor(Math.random() * palos.length)
     let azar2 = Math.floor(Math.random() * numeros.length)
 
-    // let palosRenderizados = document.querySelectorAll(".palo")
 
     if (palos[azar] === "♥" || palos[azar] === "♦") {
       palosRenderizados[0].style.color = "red"
