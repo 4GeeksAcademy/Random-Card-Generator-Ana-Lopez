@@ -1,5 +1,19 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: #0F7E13;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.card {
+    width: 55%;
+
+}
+
+.palo{
+    display: flex;
+    align-items: 
 }
