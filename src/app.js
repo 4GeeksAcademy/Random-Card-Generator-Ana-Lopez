@@ -21,11 +21,13 @@ window.onload = function () {
 
   palosRenderizados[1].style.transform = "rotate(180deg)";
 
-  if (palos[azar] === "♥") {
-    palosRenderizados[0].style.color = "red"
-    palosRenderizados[1].style.color = "red"
-
-  }
+  if (palos[azar] === "♥" || palos[azar] === "♦") {
+      palosRenderizados[0].style.color = "red"
+      palosRenderizados[1].style.color = "red"
+    } else {
+      palosRenderizados[0].style.color = "black"
+      palosRenderizados[1].style.color = "black"
+    }
 
 
   boton.addEventListener("click", function () {
@@ -35,13 +37,16 @@ window.onload = function () {
     let azar = Math.floor(Math.random() * palos.length)
     let azar2 = Math.floor(Math.random() * numeros.length)
 
-    if (palos[azar] === "♥"){
-    palosRenderizados[0].style.color= "red"
-    palosRenderizados[1].style.color="red"
-
-  }
-
     let palosRenderizados = document.querySelectorAll(".palo")
+
+    if (palos[azar] === "♥" || palos[azar] === "♦") {
+      palosRenderizados[0].style.color = "red"
+      palosRenderizados[1].style.color = "red"
+    } else {
+      palosRenderizados[0].style.color = "black"
+      palosRenderizados[1].style.color = "black"
+    }
+
     palosRenderizados[0].innerHTML = (palos[azar]);
     palosRenderizados[1].innerHTML = (palos[azar]);
     document.querySelector(".numero").innerHTML = (numeros[azar2]);
