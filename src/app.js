@@ -39,4 +39,24 @@ window.onload = function () {
    generarCarta();
 
    boton.addEventListener("click", generarCarta)
+
+   let inputHeight = document.getElementById("heightInput");
+   let inputWidth = document.getElementById("widthInput");
+   let tarjeta = document.querySelector(".tarjeta");
+
+  inputHeight.addEventListener("input", function (event){
+  
+  let height = event.target.value;
+  tarjeta.style.height = height + "px";
+
+  });
+
+  inputWidth.addEventListener("input", function (event){
+
+  let width = event.target.value;
+  tarjeta.style.width = width + "px";
+  
+});
+
+
 };

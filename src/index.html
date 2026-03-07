@@ -20,8 +20,9 @@
 
   <div class="container">
     <div class="row">
-      <div class="col">
-        <div class="card text-center justify-content-between mt-5 p-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded-4" style="width: 20rem; height: 28rem;">
+      <div class="col-6">
+        <div class="card text-center justify-content-between mt-5 p-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded-4 tarjeta"
+          style="width: 20rem; height: 28rem;">
 
           <div class="palo align-self-start"></div>
 
@@ -31,6 +32,18 @@
 
         </div>
       </div>
+      <div class="col-6">
+        <div class="mb-3 mt-5">
+          <label class="form-label">Width</label>
+          <input id="widthInput" type="number" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Height</label>
+          <input id="heightInput" type="number" class="form-control">
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-4">
           <div class="gap-2 col-6 mx-auto">
@@ -40,9 +53,11 @@
           </div>
         </div>
       </div>
+
+
       <script type="module" src="/app.js"></script>
 
-      
+
 
 </body>
 <!-- </div>
