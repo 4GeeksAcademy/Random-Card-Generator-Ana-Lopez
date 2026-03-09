@@ -21,3 +21,7 @@ body {
 .numero{
     font-size: 100px;
 }
+
+div {
+  border: 1px dotted red;
+}
