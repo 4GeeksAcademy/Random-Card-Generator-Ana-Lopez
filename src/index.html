@@ -17,16 +17,18 @@
 
 <body>
 
-  <div class="container">
+  <div class="container hv-100">
 
     <h1>JavaScript Card Generator</h1>
     <p>
       The card below changes randomly when the page loads, every 10 seconds, or when you click the button.
     </p>
 
-    <div class="row justify-content-between">
+    <div class="row mt-4=">
 
+      <!-- CARD COLUMN -->
       <div class="col-5">
+       
         <div
           class="card text-center justify-content-between mt-5 p-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded-4 tarjeta"
           style="width: 20rem; height: 28rem;">
@@ -39,11 +41,13 @@
 
         </div>
         <p>Current Card</p>
+        </div>
 
-      </div>
+      
 
-      <div class="col-6">
-        <div class="card mt-5 rounded-2" style="width: 18rem;">
+      <!-- SETTINGS COLUMN -->
+      <div class="col-md-7">
+        <div class="card mt-5 p-4 rounded-2 w-100">
 
           <div class="card-body">
             <h5 class="card-title">Card Settings</h5>
@@ -63,9 +67,10 @@
             <div class="d-grid gap-2">
               <button class="btn btn-warning" id="applySize" type="button">Update Size</button>
             </div>
-
-            <div class="alert alert-dark rounded-4 p-2 d-inline-block mt-3" role="alert">
-              Auto refresh:10s
+            <div class= "mt-3">
+              <div class="alert alert-dark rounded-4 p-2 d-inline-block" role="alert">
+                Auto refresh:10s
+              </div>
             </div>
             <button type="button" class="btn btn-warning mt-2 updatecard">Change Card</button>
           </div>

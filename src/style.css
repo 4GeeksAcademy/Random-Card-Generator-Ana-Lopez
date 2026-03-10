@@ -1,7 +1,10 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body {
-    background: #0F7E13;
+    /* background: #0F7E13; */
+    background-image: url("./assets/img/flat-design-poker-table-background_23-2151047002(1).jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
     /* display: flex;
     justify-content:flex-start;
     padding-left: 200px; */
@@ -24,6 +27,6 @@ body {
     font-size: 100px;
 }
 
-div {
+/* div {
   border: 1px dotted red;
-}
+} */
