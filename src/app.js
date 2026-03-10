@@ -56,9 +56,9 @@ window.onload = function () {
 
   })
 
-  setInterval(function () {
-    location.reload();
-  }, 20000);
+  // setInterval(function () {
+  //   location.reload();
+  // }, 20000);
 
   // inputHeight.addEventListener("input", function (event){
 
