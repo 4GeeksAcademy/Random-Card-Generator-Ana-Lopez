@@ -16,12 +16,16 @@
 </head>
 
 <body>
-  <!-- Write your HTML code here, you can delete everything withing the body tags -->
 
-  <div class="container ">
+  <div class="container">
+
     <h1>JavaScript Card Generator</h1>
-    <p>The card below changes randomly when the page loads, every 10 seconds, or when you click the button.</p>
+    <p>
+      The card below changes randomly when the page loads, every 10 seconds, or when you click the button.
+    </p>
+
     <div class="row justify-content-between">
+
       <div class="col-5">
         <div
           class="card text-center justify-content-between mt-5 p-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded-4 tarjeta"
@@ -34,37 +38,34 @@
           <div class="palo align-self-end"></div>
 
         </div>
-          <p>Current Card</p>
-      
+        <p>Current Card</p>
+
       </div>
 
-      <div class="col-5">
-        <div class="mb-3 mt-5">
-          <label class="form-label">Width</label>
-          <input id="widthInput" type="number" class="form-control">
-        </div>
+      <div class="col-6">
+        <div class="card mt-5 rounded-2" style="width: 18rem;">
 
-        <div class="mb-3">
-          <label class="form-label">Height</label>
-          <input id="heightInput" type="number" class="form-control">
-        </div>
-      </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
 
-      <!-- <div class="row">
-        <div class="col-4">
-          <div class="gap-2 col-6 mx-auto">
-
+            <label class="form-label">Width</label>
+            <input id="widthInput" type="number" class="form-control">
+            <div class="mb-3">
+              <label class="form-label">Height</label>
+              <input id="heightInput" type="number" class="form-control">
+            </div>
             <button type="button" class="btn btn-dark mt-3 updatecard">Update Card</button>
-
           </div>
         </div>
-      </div> -->
       </div>
+    </div>
   </div>
 
 
 
-      <script type="module" src="/app.js"></script>
+  <script type="module" src="/app.js"></script>
 
 
 
