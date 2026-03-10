@@ -46,17 +46,28 @@
         <div class="card mt-5 rounded-2" style="width: 18rem;">
 
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-              content.</p>
+            <h5 class="card-title">Card Settings</h5>
+            <p class="card-text">Adjust the card width and height in pixels (px) using the controls below.</p>
 
-            <label class="form-label">Width</label>
-            <input id="widthInput" type="number" class="form-control">
-            <div class="mb-3">
-              <label class="form-label">Height</label>
-              <input id="heightInput" type="number" class="form-control">
+            <div class="input-group mb-3">
+              <span class="input-group-text">Width</span>
+              <input id="widthInput" type="text" class="form-control">
+              <span class="input-group-text">px</span>
             </div>
-            <button type="button" class="btn btn-dark mt-3 updatecard">Update Card</button>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text">Height</span>
+              <input id="heightInput" type="text" class="form-control">
+              <span class="input-group-text">px</span>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-warning" id="applySize" type="button">Update Size</button>
+            </div>
+
+            <div class="alert alert-dark rounded-4 p-2 d-inline-block mt-3" role="alert">
+              Auto refresh:10s
+            </div>
+            <button type="button" class="btn btn-warning mt-2 updatecard">Change Card</button>
           </div>
         </div>
       </div>
