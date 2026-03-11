@@ -11,7 +11,7 @@ window.onload = function () {
   let palos = ["♦", "♥", "♠", "♣"]
   let numeros = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "K", "Q", "J", "A"];
 
-  // document.querySelector("#card").innerHTML = (numeros[azar2]+ palos[azar]);
+
   let palosRenderizados = document.querySelectorAll(".palo")
   let boton = document.querySelector(".updatecard");
 
@@ -55,22 +55,6 @@ window.onload = function () {
 
 
   })
-
-  // setInterval(function () {
-  //   location.reload();
-  // }, 20000);
-
-  // inputHeight.addEventListener("input", function (event){
-
-  // let height = event.target.value;
-  // tarjeta.style.height = height + "px";
-
-  // });
-
-  // inputWidth.addEventListener("input", function (event){
-
-  // let width = event.target.value;
-  // tarjeta.style.width = width + "px";
 
 };
 
